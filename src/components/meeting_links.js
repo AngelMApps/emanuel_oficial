@@ -1,7 +1,7 @@
 export const meetLinks=[
  {
   "index":"0",
-  "route":"./devocional",
+  "route":"./meetings/devocional",
   "name":"Devocional",
   "iURL":"../images/cDevo.png"
  },

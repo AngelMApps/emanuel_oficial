@@ -12,9 +12,11 @@
     <div><h3>Somos la iglesia Emanuel</h3></div>
     <CompSocial/>
   </div>
-  <CompParallax iURL="../images/fondo2.jpg" sHeight=40 sPadding=10/>
+  <CompParallax iURL="../images/fondo2.jpg" sHeight=45 sPadding=10/>
   <InfoSection/>
-  <CompParallax iURL="../images/fondo3.jpg" sHeight=35 sPadding=0/>
+  <CompParallax iURL="../images/fondo3.jpg" sHeight=45 sPadding=0/>
+   <InfoSection/>
+  <CompParallax iURL="../images/fondo2.jpg" sHeight=40 sPadding=10/>
   <Footer/>
 </main>
 

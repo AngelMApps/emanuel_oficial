@@ -8,7 +8,6 @@
         var scroll = document.documentElement.scrollTop || document.body.scrollTop;
         if (scroll >= 200) {
             nColor = 1;
-            console.log(scroll);
         } else {
              nColor = 0;
           }
@@ -16,7 +15,6 @@
     let showReuLinks = () =>{
         sReuLinks = !sReuLinks;
     };
-    console.log(meetLinks[meetLinks.length-1].name);
 </script>
 
 <!-- markup (zero or more items) goes here -->
@@ -45,7 +43,7 @@
 </nav>
 <ul class={sReuLinks ? "sidenav":"no_sidebar"}>
     {#each meetLinks as mt }
-        <li on:click={showReuLinks}><a href={mt.route}>{mt.name}</a></li>
+        <li on:click={showReuLinks}><a href={$url(mt.route)}>{mt.name}</a></li>
         {#if mt.index < 5}
             <hr/>
         {/if}
