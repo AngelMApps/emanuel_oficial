@@ -5,7 +5,7 @@
     export let bright=0.2;
 </script>
 
-<section style="height: {sHeight}rem; background-image:url({iURL}); padding:{sPadding}px; filter:brightness({bright})" class="div_back"/>
+<section style="height: {sHeight}rem; background-image:url({iURL}); padding:{sPadding}px; filter:brightness({bright});" class="div_back"/>
 
 
 <style>
@@ -19,7 +19,7 @@
         background-position: center;
     }
     .div_back{
-        background-color: rgba(0,0,0,0.8);
+        background-color: rgba(0,0,0,0.9);
         z-index:0; 
     }
 </style>
